@@ -3,8 +3,6 @@ import '../../repositories/products_repositories.dart';
 import 'products_event.dart';
 import 'products_state.dart';
 
-
-
 class ProductBloc extends Bloc<ProductEvent, ProductState> {
   final ProductRepository repo = ProductRepository();
 
